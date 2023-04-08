@@ -1,4 +1,4 @@
-# ChatGPT_ConsoleApp
+# OpenAI_ConsoleApp
 I'm using to OpenAI API in a console project.
 
 Use technologies 
