@@ -1,6 +1,5 @@
 ﻿using MyAIAssistant.DataAccess;
-using MyAIAssistant.Model;
-
+using MyAIAssistant.Model.Request;
 
 namespace MyAIAssistant.Service
 {
@@ -12,8 +11,6 @@ namespace MyAIAssistant.Service
     {
       _restSharp = new RestSharpService("https://api.openai.com/v1/chat/" , apikey);
     }
-
-    public ChatModel _chat { get; set; }
     public string AskToAI(string content)
     {
       return _restSharp.Post(content);

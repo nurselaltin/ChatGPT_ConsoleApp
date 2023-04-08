@@ -1,4 +1,4 @@
-﻿using MyAIAssistant.Model;
+﻿using MyAIAssistant.Model.Request;
 using Newtonsoft.Json;
 using RestSharp;
 using System;
@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace MyAIAssistant.DataAccess
 {
-  public class RestSharpService : IRestSharp
+    public class RestSharpService : IRestSharp
   {
     private string _apiKey { get; set; }
     private RestClient _client { get; set; }
@@ -55,7 +55,6 @@ namespace MyAIAssistant.DataAccess
 
         var yy = JsonConvert.DeserializeObject<dynamic>(responseData).choices[0];
         choices = yy.message.content;
-
 
       }
       else
