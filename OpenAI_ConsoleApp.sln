@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAIAssistant", "ChatGBT_ConsoleApp\MyAIAssistant.csproj", "{2E3B7230-57E5-4124-8CE4-3FE43ED5ADC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyAIAssistant", "OpenAI_ConsoleApp\MyAIAssistant.csproj", "{2E3B7230-57E5-4124-8CE4-3FE43ED5ADC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
