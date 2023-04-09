@@ -7,4 +7,4 @@ Use technologies
 - RestSharp 
 - ChatCompletion of OpenAI , model = "gpt-3.5-turbo"
 
-Article of project is in here. [here](https://medium.com/@nurselaltin.na/getting-started-with-openai-in-c-f6c615f6c36f)
+Article of project is in [here](https://medium.com/@nurselaltin.na/getting-started-with-openai-in-c-f6c615f6c36f)
